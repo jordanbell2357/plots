@@ -1,0 +1,67 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Area, production and sales of mushrooms",32100356,001-0012,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210035601",1;2;3,"CURRENT - a cube available to the public and that is current",Annual,1964-01-01,2020-01-01,2
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,Estimates,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,,
+1,"Eastern Canada (Maritimes, Quebec and Ontario)",,2,1,t,,
+1,"Maritime provinces and Quebec",,3,1,,,
+1,Ontario,[35],4,1,,,
+1,"Prairie provinces",[4],5,1,,4,
+1,"British Columbia",[59],6,1,,,
+1,"Western provinces",,7,1,t,8,
+2,"Area beds, total",,1,,,5,
+2,"Area harvested, total",,2,,,,
+2,"Production (fresh and processed), total",,3,,,,
+2,"Quantity sold fresh, total",,4,3,,,
+2,"Quantity sold processed, total",,5,3,,,
+2,"Value (fresh and processed), total",,6,,,,
+2,"Value sold fresh, total",,7,6,,,
+2,"Value sold processed, total",,8,6,,,
+2,"Investment, total",,9,,,,
+2,Land,,10,9,,,
+2,Buildings,,11,9,,7,
+2,"Processing, packing equipment and other machinery",,12,9,,,
+2,"Labour cost, total",,13,,,,
+2,"Full-time employees",,14,,,,
+2,"Part-time employees",,15,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3411,"Mushroom Growers' Survey"
+
+"Subject Code","Subject Name"
+32,"Agriculture and food"
+
+"Note ID",Note
+1,"Prior to 1993, value represents that received by the grower in all cases except for those who sell to the largest mushroom co-operative in British Columbia, where value is that received by the co-op."
+2,"For 1986, Canada total includes confidential processing mushrooms for Maritimes, Quebec and Prairies for production (fresh and processed), total (tons), quantity processed, total (tons), value (fresh and processed), total (dollars) and value processed, total (dollars)."
+3,"Processing mushrooms are not included in the following: for 1986 for production (fresh and processed), total (tons) for Prairie provinces, from 1986 to 1988 for Maritime provinces and Quebec; for 1986 for value (fresh and processed), total (dollars) for Prairie provinces, Maritime provinces and Quebec."
+4,"Confidential data (marked with an X) are included with Eastern provinces from 1976 to 1982; from 1983 to 1985, they are included with Ontario."
+5,"The data for 1979 and 1980 are not available due to changes in information collected."
+7,"Includes heating and cooling equipment."
+8,"From 2008 to 2013, data for the Prairie provinces and British Columbia were discontinued and amalgamated under Western provinces."
+
+"Correction ID","Correction Date","Correction Note"
+953,2014-06-27,"<p>The scalar factor has been added to the following labels for Western provinces; Area beds, total (square feet x 1,000), Area harvested, total (square feet x 1,000), Value (fresh and processed), total (dollars x 1,000),Value sold fresh, total (dollars x 1,000), Value sold processed, total (dollars x 1,000), Investment, total (dollars x 1,000), Land (dollars x 1,000), Buildings (dollars x 1,000), Processing, packing equipment and other machinery (dollars x 1,000), Labour cost, total (dollars x 1,000). There was no impact on the data value as a result of this amendment.<br></p>"
+
+
